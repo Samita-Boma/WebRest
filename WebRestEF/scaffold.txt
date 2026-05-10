@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Data Source=54.198.204.133:1521/FREEPDB1;User ID=UD_SAMIBOMA;Password=UD_SAMIBOMA" Oracle.EntityFrameworkCore --namespace WebRest.EF.Models --context-namespace WebRest.EF.Data --output-dir Models --context-dir Data --context "WebRestOracleContext" --data-annotations --no-onconfiguring --force --no-pluralize
