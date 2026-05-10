@@ -69,5 +69,5 @@ public partial class Address
 
     [ForeignKey("ZipcodeGuid")]
     [InverseProperty("Address")]
-    public virtual Zipcode Zipcode { get; set; } = null!;
+    public virtual Zipcode? Zipcode { get; set; }
 }
