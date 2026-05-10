@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WebRestAPI/WebRestAPI.csproj" />
+  <Project Path="WebRestEF/WebRestEF.csproj" />
+</Solution>
